@@ -4,8 +4,7 @@ Aesthetically pleasing start page for your web browser based on [Setuini's Start
 
 Dynamically changes icons depending on weather conditions and gives real time temperature data from [OpenWeatherMap](http://www.openweathermap.org)
 
-Sidebar gives quick access to all of your favorite websites.
-
+Side bar and search bar give quick access to your websites and searches.
 
 #To install:
 unzip the repository into desired directory
