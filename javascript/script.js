@@ -1,6 +1,5 @@
 $(document).ready(function() {
     var wid = '5389213', temp, condition;
-    $(".menu").slideToggle();
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=' + wid, 
         dataType: 'json',
@@ -9,6 +8,7 @@ $(document).ready(function() {
            condition = data['weather'][0]['id'];
            $('#Temp').prepend(convert_temp(temp));
            document.getElementById("icon").src = get_icon(condition);
+           document.getElementById("favicon").href = get_icon(condition);
         },
          error: function() {
             alert('error');
