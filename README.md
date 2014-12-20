@@ -9,4 +9,5 @@ Sidebar gives quick access to all of your favorite websites.
 
 #To install:
 unzip the repository into desired directory
+
 In web browser, set homepage as: "/path/to/startpage/startpage.html"
