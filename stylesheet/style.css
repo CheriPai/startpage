@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin:auto;
+}
+
+body {
+	background-image:url(../images/bg.jpg);
+	background-color: #FFFFFF;
+	margin:0;
+	padding:0;
+	height:100%;
+	background-size:100%;
+}
+
+#Logo {
+	width: 200px;
+	padding-top:7.5%;
+}
+
+
+#Search {
+	width: 200px;
+	height: 333px;
+	padding-top: 5%;
+}
+
+#f {
+	background-color: rgba(35,31,32,0,45);
+	
+}
+
+#q {
+	font-family: Arial,sans-serif;
+	color: rgba(250,250,250,0.8);
+	font-size: 12px;
+	border: none;
+	background-color: #231f20;
+	height: 22px;
+	width: 188px;
+	border-radius: 5px;
+	outline: 0 none;
+	padding: 6px;
+	opacity: 0.85;
+}
+
+#Temp {
+    text-align: right;
+}
+
+/*=======================================
+               Menu
+=========================================*/
+
+#Menu {
+	Width: 100px;
+	Height: 100%;
+	background-color: #231f20;
+	opacity: 0.85;
+	left:0px;
+	top: 0px;
+	position:absolute;
+	display:none;
+}
+
+ul {
+    list-style-type: none;
+	text-decoration:none;
+	color: rgab(250,250,250,0.8);
+	left:10px;
+	top:10px;
+	position:absolute;
+}
+
+li {
+	
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font:Arial, Helvetica, sans-serif;
+	font-size:small;
+	margin:6px;
+}
+
+A:link {
+	text-decoration: none;
+	color: rgba(250,250,250,0.8);
+}
+
+A:visited {
+	text-decoration: none;
+	color: rgba(250,250,250,0.8);
+}
+	
+A:active {
+	text-decoration: none;
+	color: rgba(250,250,250,0.8);
+}
+
+A:hover {
+	text-decoration: none;
+	color: rgba(250,250,250,1);
+	border-bottom:1px dotted;
+	border-color: rgba(250,250,250,0.45);
+}
