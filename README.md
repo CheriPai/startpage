@@ -1,8 +1,8 @@
 #startpage
 
-Aesthetically pleasing start page for your web browser based on: http://setuini.deviantart.com/art/Startpage-447948489
+Aesthetically pleasing start page for your web browser based on [`Setuini's Startpage`](http://setuini.deviantart.com/art/Startpage-447948489)
 
-Dynamically changes icons depending on weather conditions and gives real time temperature data from http://www.openweathermap.org
+Dynamically changes icons depending on weather conditions and gives real time temperature data from [`openweathermap`](http://www.openweathermap.org)
 
 Sidebar gives quick access to all of your favorite websites.
 
