@@ -1,5 +1,7 @@
 #startpage
 
-Start page for your web browser based on: http://setuini.deviantart.com/art/Startpage-447948489
-Dynamically changes icons depending on Weather conditions and gives real time temperature data.
-Sidebar gives quick access to your favorite websites.
+Aesthetically pleasing start page for your web browser based on: http://setuini.deviantart.com/art/Startpage-447948489
+
+Dynamically changes icons depending on weather conditions and gives real time temperature data from http://www.openweathermap.org
+
+Sidebar gives quick access to all of your favorite websites.
