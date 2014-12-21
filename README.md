@@ -9,4 +9,6 @@ Side bar and search bar give quick access to your favorite websites and searches
 #To install:
 unzip the repository into desired directory
 
+Edit the HTML file in two places. Replace the default city code with your own from [here](http://openweathermap.org/city/). When you enter your city into the search, retrieve the 7-digit number from the end of the URL. Replace the default favorite websites with your own.
+
 In web browser, set homepage as: "/path/to/startpage/startpage.html"
