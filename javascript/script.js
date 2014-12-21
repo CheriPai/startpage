@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    var wid = '5389213', temp, condition;
+    var temp, condition;
+    var wid = document.getElementById('wid').innerHTML;
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=' + wid, 
         dataType: 'json',
@@ -11,7 +12,7 @@ $(document).ready(function() {
            document.getElementById("favicon").href = get_icon(condition);
         },
          error: function() {
-            alert('error');
+            alert('Error: failed to retrieve weather data.');
         }
     });
 });
