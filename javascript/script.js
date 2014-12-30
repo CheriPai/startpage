@@ -25,22 +25,22 @@ function convert_temp(temp)
 
 function get_icon(weather_code)
 {
-    if(weather_code < 300)
+    if(weather_code <= 300)
         //thunderstorms
         return 'images/cloud310.png';
-    else if(weather_code < 500)
+    else if(weather_code <= 500)
         //rain
         return 'images/rain4.png';
-    else if(weather_code < 600)
+    else if(weather_code <= 600)
         //snow
         return 'images/cloud324.png';
-    else if(weather_code < 700)
+    else if(weather_code <= 700)
         //weird stuff FIXME
         return 'images/sun94.png';
     else if(weather_code == 800)
         //sunny
         return 'images/sun94.png';
-    else if(weather_code < 900)
+    else if(weather_code <= 900)
         //clouds
         return 'images/cloudy19.png';
     else if(weather_code != 903 && weather_code != 904)
